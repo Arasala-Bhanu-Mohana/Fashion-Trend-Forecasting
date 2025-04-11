@@ -23,10 +23,10 @@ This repository contains an R-based analytical project aimed at forecasting fash
 
 ```
 fashion-trend-forecasting/
-├── fashion-trend-forecasting.R                        # Main R script for data analysis
-├── fashion-trend-forecasting-presentation.pdf         # Project presentation (PDF)
-├── gtrends.xlsx                                       # Raw Google Trends dataset
-└── README.md                                          # Project overview and instructions
+├── fashion-trend-forecasting.R                  # Main R script for data analysis
+├── fashion-trend-forecasting-presentation.pdf   # Project presentation (PDF)
+├── gtrends.xlsx                                 # Raw Google Trends dataset
+└── README.md                                    # Project overview and instructions
 ```
 
 ---
@@ -39,7 +39,7 @@ fashion-trend-forecasting/
 git clone https://github.com/Arasala-Bhanu-Mohana/fashion-trend-forecasting.git
 ```
 
-2. **Open the R script** (`long_sleeve_forecasting.R`) in RStudio.
+2. **Open the R script** (`fashion-trend-forecasting.R`) in RStudio.
 
 3. **Install required libraries** (if not already installed):
 
@@ -65,7 +65,4 @@ install.packages(c("tidyverse", "lubridate", "xts", "forecast", "zoo"))
 
 The detailed project presentation, which summarizes the forecasting methodology, visualizations, and key insights, can be accessed here:
 
-📎 [long_sleeve_forecast.pdf](long_sleeve_forecast.pdf)
-
-
-
+📎 [fashion-trend-forecasting-presentation.pdf](fashion-trend-forecasting-presentation.pdf)
